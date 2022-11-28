@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Lato:wght@300;700&family=Poppins:wght@200;400;600&display=swap');
+
+body
+{
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%)
+}
+#price
+{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container
+{
+    display: grid;
+    grid-template-areas: "a a"
+                            "b c";
+}
+.community
+{   
+    padding: 30px 40px;
+    background-color: white;
+    border-radius: 5px;
+    grid-area: a;
+}
+.community h3
+{
+    color:hsl(179, 62%, 43%);
+    font-weight: 700;
+}
+.community p
+{
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+}
+.community small
+{
+    color: hsl(218, 22%, 67%);
+    font-weight: 300;
+}
+.subscription
+{
+    grid-area: b;
+    background-color: hsl(218, 22%, 67%);
+    padding: 20px 40px;
+    border-bottom-left-radius: 5px;
+}
+.subscription h4
+{
+    color: white;
+}
+.flex
+{
+    display: flex;
+    align-items:center ;
+}
+.subscription span
+{
+    color: white;
+    font-size: 30px;
+    
+}
+.subscription .flex small
+{
+    margin-left:10px ;
+    color: hsl(204, 43%, 93%);
+    font-weight: 700;
+}
+.subscription p
+{
+    color: hsl(204, 43%, 93%);
+}
+.subscription a
+{
+    display: block;
+    background-color: hsl(71, 73%, 54%);
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.why-us
+{
+    grid-area: c;
+     padding: 20px 40px;
+     background-color:  hsl(179, 62%, 43%);
+     border-bottom-right-radius: 5px;
+}
+.why-us h4
+{
+    color: white;
+}
+.why-us li
+{
+    list-style: none;
+    font-size: 12px;
+    margin-left: -39px;
+    color:hsl(204, 43%, 93%);
+    line-height: 18px;
+    
+}
+
+@media only screen and (max-width:375px)
+{
+.container
+{
+    grid-template-areas: "a"
+    "b"
+    "c";
+
+    padding: 40px 20px; 
+}
+}
