@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap');
+
+body {
+    font-family: 'Karla', sans-serif !important;
+}
+
+.nav-border {
+    border: 2px solid red;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+}
+
+#hero {
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 100px;
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hori-l {
+    margin-bottom: 50px;
+    width: 30%;
+    height: 2px;
+    border: 1px solid white;
+}
+
+.r-p {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.l-p {
+    position: absolute;
+    left: 0;
+    bottom: -300px;
+}
+
+#hero .desktop-img {
+    position: absolute;
+    top: 150px;
+    z-index: 1
+}
+
+#hero h1 {
+    font-family: 'DM Serif Display', serif;
+    width: 370px;
+    font-size: 50px;
+}
+
+#hero a {
+    color: white;
+}
+
+
+
+#hero .mobile-img {
+    width: 100%;
+    display: none;
+}
+
+#service {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+}
+
+#service .card {
+    border: none;
+}
+
+#service h1 {
+    font-size: 50px;
+}
+
+#service h1,
+h5 {
+    font-family: 'DM Serif Display', serif;
+}
+
+#service img {
+    width: 70px;
+}
+
+.color {
+    border: 1px solid blue;
+}
+
+#work {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 135px;
+    padding-right: 135px;
+    margin-top: -80px;
+}
+
+#work .container {
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+    padding: 50px 40px;
+    background-image: url(/images/bg-pattern-how-we-work-desktop.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#work h1 {
+    width: 350px;
+    font-family: 'Dm serif Display', serif;
+}
+
+#work .btn {
+    color: white;
+}
+
+#footer {
+    width: 100%;
+    /* min-height: 100vh; */
+    background-color: hsl(0, 0%, 98%);
+    padding-top: 60px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.f-p {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#footer img {
+    margin-right: 10px;
+}
+
+#footer .hori-l {
+    margin-top: 30px;
+    width: 95%;
+
+}
+
+#footer h5 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#footer li {
+    list-style: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+
+}
+
+@media only screen and (max-width:375px) {
+    #hero .desktop-img {
+        display: none;
+    }
+
+    #hero .mobile-img {
+        display: block;
+    }
+
+    #hero .r-p,
+    .l-p {
+        display: none;
+    }
+
+    #hero {
+        position: static;
+    }
+
+    #hero h1 {
+        font-family: 'DM Serif Display', serif;
+        width: 300px;
+        font-size: 30px;
+        text-align: center;
+    }
+    #hero .text-c
+    {
+        text-align: center;
+    }
+
+    #footer {
+        display: flex;
+        align-items: center;
+    }
+
+    #footer .mgt {
+        margin-top: 20px;
+    }
+
+    #footer .text-c {
+        text-align: center;
+    }
+
+    #work .text-c {
+        text-align: center;
+    }
+
+    #work .mgt {
+        margin-top: 20px;
+    }
+
+    #work h1 {
+        width: 280px;
+        font-size: 40px;
+    }
+
+    #work {
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 0px;
+    }
+
+    #work .container {
+
+
+        background-image: url(/images/bg-pattern-how-we-work-mobile.svg);
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+
+    #service {
+        padding-top: 50px;
+    }
+
+    #service .text-c {
+        text-align: center;
+
+    }
+
+    #service img {
+        margin: auto;
+    }
+
+    #service h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #service .hori-l {
+        margin: auto;
+        width: 50%;
+    }
+
+    #hero {
+
+        padding-left: 0px;
+        padding-bottom: 60px;
+        }
+
+        #hero .hori-l
+        {
+            margin: auto;
+            margin-top: 50px;
+            margin-bottom: 20px;
+            width: 50%;
+        }
+        #hero p {
+            text-align: center
+        }
+        #hero .btn{
+            margin:auto;
+        }
+    }
