@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <script src="script.js"></script>
+
+
+</head>
+
+<body>
+  <section id="main">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-sm-12 my-auto">
+        <div class="container py-5">
+        <h1> Learn to code by watching others</h1>
+        <p class="mt-3">
+          See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+          but understanding how developers think is invaluable.
+        </p>
+      </div>
+      </div>
+      
+      <div class="col-lg-6 col-sm-12">
+        <div class="container">
+        <div class="box mb-3">
+          <p class="mb-0">  Try it free 7 days <small class="sp">then $20/mo. thereafter</small> </p>
+        </div>
+        <div class="form">
+          <form name="form1">
+            <div class="err first-n mb-3">
+              <input type="text" placeholder="First Name" name="fname">
+              <img src="/images/icon-error.svg" id="img1" alt="">
+              <small id="sm1">First name cannot be empty</small>
+
+            </div>
+            <div class="err last-n mb-3">
+              <input type="text" placeholder="Last Name" name="lname">
+              <img src="/images/icon-error.svg" alt="" id="img2">
+              <small id="sm2">Last name cannot be empty</small>
+            </div>
+            <div class="err Email mb-3">
+              <input type="email" placeholder="Email Address" name="email">
+              <img src="/images/icon-error.svg" alt="" id="img3">
+              <small id="sm3">Looks like that not an email</small>
+            </div>
+            <div class="err Password mb-3">
+              <input type="password" placeholder="Password" name="pass">
+              <img src="/images/icon-error.svg" alt="" id="img4">
+              <small id="sm4">Password cannot be empty</small>
+            </div>
+            <a href="" class="btn" onclick="error()">Claim your free trial
+            </a> <br>
+            <small> By clicking the button, you are agreeing to our <span> Terms and Services</span> </small>
+          </form>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+
+
+
+
+ 
+
+
+</body>
+
+</html>

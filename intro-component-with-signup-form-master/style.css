@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body
+{
+    font-family: 'Poppins', sans-serif !important;
+    background-image: url(/images/bg-intro-desktop.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    background-color: hsl(0, 100%, 74%) !important;
+}
+#main
+{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main h1
+{
+    color: white;
+    font-weight: 700;
+    width: 500px;
+}
+#main p
+{
+    color: white;
+    font-size: 14px;
+}
+#main .box
+{
+    width: 85%;
+    padding: 10px 10px;
+    background-color:  hsl(248, 32%, 49%);
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0 6px 1px -1px gray;
+}   
+
+
+#main .form
+{
+    width: 85%;
+    padding: 30px 10px;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 6px 1px -1px gray;
+    
+}
+ 
+#main .form input
+{
+    width: 85%;
+    margin: 5px 0;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid hsl(0, 100%, 74%);
+    
+}  
+#main .form a{
+    
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    width: 85%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+} 
+#main .form a:hover
+{
+    background-color: hsl(246, 25%, 77%);
+}
+#main .form small
+{
+    font-size: 10px;
+    
+    display: inline-block;
+    
+    margin-top: 10px;
+
+    color: hsl(246, 25%, 77%);
+
+} 
+#main .form small span
+{
+    color: black;
+}
+
+.err
+{
+    position: relative;
+}
+
+.err img {
+    position: absolute;
+    right: 50px;
+    top: 15px;
+    width: 20px;
+    display: none;
+}
+
+.err small
+{
+    position: absolute;
+    right: 33px;
+    top: 40px;
+    visibility:hidden;
+    
+
+}
+
+
+
+@media only screen and (max-width:425px)
+{
+    body
+    {
+        background-image: url(/images/bg-intro-mobile.png) !important;
+    }
+    #main h1
+{
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    width: auto;
+    text-align: center;
+}
+#main p{
+    text-align: center;
+}
+#main .box
+{
+    width: 100%;
+    padding: 20px 10px;
+}
+#main .box p
+{
+    width: 200px;
+}
+#main .form
+{
+    width:100%;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+
+        
+}
+#main .form small
+{
+    width: 220px;
+}
+
+}
+
