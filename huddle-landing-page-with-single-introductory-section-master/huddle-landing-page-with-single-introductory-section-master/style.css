@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Lato:wght@300;700&family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+body
+{
+    background: url(/images/bg-desktop.svg);
+    background-color:hsl(257, 40%, 49%);
+    
+    
+}
+h1
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    width: 450px;
+    font-size: 2.1rem;
+    color: white;
+}
+p
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: hsl(300, 62%, 90%);
+    /* width: 500px; */
+}
+#header
+{
+    padding:30px 40px ;
+}
+#header .logo img
+{
+    width: 190px;
+}
+#main
+{
+    padding: 40px 40px;
+    /* width: 100%; */
+}
+.main-grid
+{   width: 100%;
+    display: grid;
+    grid-template-areas: "a b";
+    grid-gap: 30px;
+}
+.left-grid
+{
+    grid-area: a;
+}
+
+.left-grid img
+{
+    width:100%;
+}
+.right-grid
+{
+    grid-area: b;
+    padding-top: 25px;
+    position: relative;
+    
+}
+.btn
+{   display: inline-block;
+    margin-top: 10px;
+    border-radius: 30px;
+    background-color: white;
+    color:hsl(257, 40%, 49%);
+    text-decoration: none;
+    padding: 10px 40px;
+    font-family: 'poppins', sans-serif;
+    transition: all 0.4s ease;
+}
+.btn:hover
+{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+.social-icons
+{
+    position: absolute;
+    bottom: 0;
+    right:0;
+      
+}
+.social-links
+{
+    font-size: 25px;
+    margin-right: 10px;
+    color: white;
+}    
+.social-links i 
+{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    transition: all 0.4s ease;
+}
+.social-links i:hover
+{
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}
+
+@media only screen and (max-width:880px)
+{
+    body
+    {
+        background-image: url(/images/bg-mobile.svg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .main-grid
+    {
+        grid-template-areas: "a"
+        "b";
+    }
+    .left-grid
+    {
+        padding-right: 30px;
+    }
+
+    .right-grid
+    {
+        text-align: center;
+        justify-content: center;
+        padding-right: 30px;
+        padding-bottom: 80px;
+    }
+    .social-icons
+    {
+        padding-top: 10px;
+       bottom: 0;
+       left: 0;
+    }
+}
