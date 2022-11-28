@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Poppins:wght@200;400;600&display=swap');
+
+
+body
+{
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+p 
+{
+    font-size: 15px;
+}
+.main-text
+{
+    text-align: center;
+    line-height: 18px;
+    padding: 20px 0;
+}   
+.main-text h1:first-child
+{
+    font-weight: 200;
+}
+
+.main-text p
+{
+    display: inline-block;
+    width: 500px;
+    text-align: center;
+    font-weight: 200;
+    
+}
+.main-container
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top:10px;
+    padding-bottom: 10px; */
+}
+.container
+{
+    padding: 10px 20px;
+    background-color: white;
+    margin: 10px;
+    /* height: 200px; */
+    width: 250px;
+    border-radius: 5px;
+}
+.icon
+{
+    text-align: right;
+    padding-top: 30px;
+}
+.icon img
+{
+    width: 45px;
+}
+
+.cyan-border
+{
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+.red-border
+{
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+.blue-border
+{
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+.orange-border
+{
+    border-top: 4px solid  hsl(34, 97%, 64%);
+}
+
+@media only screen and (max-width: 650px){
+    .main-container
+    {
+        flex-direction: column;
+    }
+    .main-text
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+    }
+    .main-text p
+    {
+        width: 250px;
+    }
+}
