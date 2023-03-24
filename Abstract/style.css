@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+body
+{
+    font-family: 'Open Sans', sans-serif !important;
+    /* width: 100%;  */
+    
+    
+    
+}
+.black
+{
+    background-color: black;
+}
+.navbar
+{
+    padding: 0 100px;
+}
+
+.navbar-brand
+{
+    color: white;
+    margin-right: 0 !important;
+}
+.navbar .navbar-nav .nav-item .nav-link
+{
+    color: white;
+    
+}
+.navbar-toggler-icon img
+{
+    width: 100%;
+}
+.button-1
+{
+    background-color: #191a1b !important;
+    border: 1px solid white;
+}
+.navbar .navbar-nav .nav-item .nav-link button
+{
+    color: white;
+    background-color: #4C5FD5;
+    font-size: 24px;
+    border-radius: 8px;
+    padding: 4px 24px;
+}
+
+#hero
+{
+    background-color: #dadbf1;
+    padding: 100px 40px;
+
+}
+#hero h1
+{
+    font-size: 4rem;
+    font-weight: 400;
+    color: #000000;
+}
+
+#hero .main-box
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#hero .main-box .search 
+{
+    width: 60%;
+    position: relative;
+}
+#hero .main-box .search input 
+{
+    width: 100%;
+    padding: 18px 20px;
+    border-radius: 4px;
+    border: 1px solid #000000;
+}
+#hero .main-box .search img 
+{
+    width: 4%;
+    position: absolute;
+    right: 20px;
+    top: 18px;
+}
+#services
+{
+    padding: 180px 60px;
+}
+#services .s-box
+{
+    display: flex;
+}
+#services .s-box .left img
+
+{
+width: 80px;
+}
+#services .s-box .right 
+{
+
+    padding-left: 30px;
+}
+#services .s-box .right h5
+{
+    font-size: 24px;
+    font-weight: bolder;
+    color: #000000;
+}
+#services .s-box .right p
+{
+    font-size: 22px;
+    color: #000000;
+    width: 90%;
+}
+#services .s-box .right a
+{
+    
+    color: #4C5FD5;
+    text-decoration: none;
+}
+#services .s-box .right a span img
+{
+    
+    width: 20px;
+}
+#footer ul li
+{
+    list-style: none;
+    color: grey;
+}
+#footer
+{
+    background-color: #000000;
+    color: white;
+
+    padding: 50px 40px;
+}
+#footer ul
+{
+    padding-left: 0;
+}
+#footer h3
+{
+    font-weight: 600;
+}
+#footer .mg-left
+{
+    margin-left: 35%;
+}
+#footer .bold
+{
+    font-weight: 600;
+    color: white;
+
+}

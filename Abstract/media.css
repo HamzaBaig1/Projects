@@ -1,0 +1,130 @@
+@media only screen and (max-width:768px) {
+    .size {
+        font-size: 20px !important;
+    }
+
+    .b-size {
+        font-size: 15px !important;
+    }
+
+    #hero h1 {
+        font-size: 2.5rem;
+        font-weight: 400;
+
+    }
+
+    #hero .main-box .search input {
+        width: 100%;
+        padding: 10px 12px;
+        border-radius: 4px;
+        border: 1px solid #000000;
+    }
+
+    #hero .main-box .search img {
+        width: 4%;
+        position: absolute;
+        right: 20px;
+        top: 15px;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .navbar {
+        padding: 0 24px;
+    }
+    .size {
+        font-size: 15px !important;
+    }
+
+    .b-size {
+        font-size: 12px !important;
+    }
+
+    #hero h1 {
+        font-size: 2rem;
+        font-weight: 400;
+
+    }
+
+    #hero .main-box .search {
+        width: 100%;
+        position: relative;
+    }
+
+    #hero .main-box .search input {
+
+        padding: 10px 12px;
+    }
+
+    #services .s-box .right h5 {
+        font-size: 20px;
+    }
+
+    #services .s-box .right p {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    #footer .mg-left {
+        margin-left: 0;
+        margin-top: 8%;
+
+    }
+
+    @media only screen and (max-width:375px) {
+        .size {
+            font-size: 15px !important;
+        }
+    
+        .b-size {
+            font-size: 12px !important;
+        }
+
+        #hero h1 {
+            font-size: 1.5rem;
+
+        }
+
+        #hero .main-box .search {
+            width: 100%;
+            position: relative;
+        }
+
+        #hero .main-box .search input {
+
+            padding: 8px 10px;
+        }
+
+        #services .s-box .right h5 {
+            font-size: 16px;
+        }
+
+        #services .s-box .right p {
+            font-size: 12px;
+            width: 100%;
+        }
+
+        #services .s-box .left img {
+            width: 50px;
+        }
+
+        #services .s-box .right a {
+
+            font-size: 12px;
+        }
+
+        #services .s-box .right a span img {
+
+            width: 10px;
+        }
+
+        #footer ul li {
+            font-size: 14px;
+
+        }
+        #footer small
+        {
+            font-size: 14px !important;
+        }
+
+    }
